@@ -62,7 +62,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
-    # 'app.middleware.SimpleMiddleware'
+    'app.middleware.SimpleMiddleware'
     # print('inside MIDDLEWARE')
 ]
 
