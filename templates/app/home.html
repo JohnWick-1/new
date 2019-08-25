@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <h3>{{msg}}</h3>
+</head>
+<body>
+<form action="/logout/" method="post">
+    {% csrf_token %}<P align="right">
+    <button class="text-right" > logout</button></P>
+</form>
+</body>
+<body>
+
+<form method="post" action="/stud2/">
+
+first_name = <input type="text" name="first_name" ><br><br>
+last_name = <input type="text" name="last_name" ><br><br>
+marks = <input type="text" name="marks" ><br><br>
+DOB = <input type="date" name="DOB" ><br><br>
+
+<input type="submit">
+</form>
+
+<h1>{{a}}</h1>
+</body>
+</html>
